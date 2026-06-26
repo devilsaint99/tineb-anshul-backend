@@ -19,7 +19,7 @@ function App() {
       setLoading(true);
 
       const { data } = await api.get(
-        "http://localhost:8080/api/search",
+        "/search",
         {
           params: {
             q: query,
